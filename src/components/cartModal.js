@@ -3,9 +3,6 @@ import CartItem from './cartItem';
 import Select from './select';
 
 const CartModal = ({ item }) => {
-    useEffect(()=>{
-        
-    }, [item])
   return (
     <div className='cart-tray'>
       <Select />
